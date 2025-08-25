@@ -50,7 +50,7 @@ const Home = () => {
       <div>
         <CollectionTypes />
       </div>
-      <div className="bg-fixed bg-cover bg-full bg-[url(..\src\assets\fgthgrtyh.png)]">
+      <div className="bg-fixed bg-cover bg-full bg-[url(@/assets/fgthgrtyh.png)]">
         <InquiryType />
       </div>
     </div>
