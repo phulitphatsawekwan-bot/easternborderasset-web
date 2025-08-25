@@ -6,7 +6,7 @@ import navbarlogo from "@/assets/white_logo_on_nav_bar.png"
 const Logo = () => {
   return (
     <Button asChild className="bg-transparent border-none shadow-none hover:none hover:bg-transparent">
-        <div className="cursor-pointer" onClick={() => window.location.href ="http://localhost:5173/"}><img src={navbarlogo} width={120} /></div>
+        <div className="cursor-pointer" onClick={() => window.location.href ="https://easternborderasset-web.vercel.app/"}><img src={navbarlogo} width={120} /></div>
     </Button>
   );
 };
