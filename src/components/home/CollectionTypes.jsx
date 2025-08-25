@@ -31,7 +31,7 @@ const CollectionTypes = () => {
         </div>
         <div className='gap-5 grid md:grid-cols-2 justify-center'>
           <div>
-            <div className="bg-cover w-[20rem] h-[20rem] rounded-lg" style={{ backgroundImage: `url(${HouseBgImg})` }}>
+            <div className="bg-[url(@/assets/hjhjkytgjyt.png)] bg-cover w-[20rem] h-[20rem] rounded-lg">
               <div className="bg-black bg-opacity-30 hover:bg-opacity-0 w-[20rem] h-[20rem] rounded-lg">
                 <div className='cursor-pointer' onClick={() => window.location.href = "http://localhost:5173/recommend?category=house"}>
                   <h1 className="text-white text-2xl p-5">{t("house")}</h1>
