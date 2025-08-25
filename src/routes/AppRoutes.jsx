@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router";
 import ScrollToTop from "@/ScrollToTop";
-import Layout from "@/layouts/layout.jsx";
+import Layout from "@/layouts/Layout.jsx";
 import About from "@/Pages/About";
 import BuyandSell from "@/Pages/admin/RealEstate";
 import Dashboard from "@/Pages/admin/Dashboard";
