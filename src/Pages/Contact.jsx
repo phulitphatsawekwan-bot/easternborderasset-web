@@ -5,7 +5,7 @@ const Contact = () => {
   const { i18n, t } = useTranslation();
   return (
     <div>
-      <div className='h-40 bg-cover bg-center bg-[url(..\src\assets\fvbffggjgj.png)]'>
+      <div className='h-40 bg-cover bg-center bg-[url(@/assets/fvbffggjgj.png)]'>
         <div className="items-center flex bg-blue-800 h-40 bg-opacity-70">
           <h1 className="text-2xl font-semibold px-[7vh] lg:px-[35vh] text-white">{t("Contact Us")}</h1>
         </div>
