@@ -43,7 +43,7 @@ const CollectionTypes = () => {
             </div>
           </div>
           <div>
-            <div className="bg-[url(..\src\assets\hjhjkytgjyt.png)] bg-cover w-[20rem] h-[20rem] rounded-lg">
+            <div className="bg-[url(@/assets/hjhjkytgjyt.png)] bg-cover w-[20rem] h-[20rem] rounded-lg">
               <div className="bg-black bg-opacity-30 hover:bg-opacity-0 w-[20rem] h-[20rem] rounded-lg">
                 <div className='cursor-pointer' onClick={() => window.location.href = "http://localhost:5173/recommend?category=condo"}>
                   <h1 className="text-white text-2xl p-5">{t("condo")}</h1>
@@ -56,7 +56,7 @@ const CollectionTypes = () => {
             </div>
           </div>
           <div>
-            <div className="bg-[url(..\src\assets\fghbngjnjy.png)] bg-cover w-[20rem] h-[20rem] rounded-lg">
+            <div className="bg-[url(@/assets/fghbngjnjy.png)] bg-cover w-[20rem] h-[20rem] rounded-lg">
               <div className="bg-black bg-opacity-30 hover:bg-opacity-0 w-[20rem] h-[20rem] rounded-lg">
                 <div className='cursor-pointer' onClick={() => window.location.href = "http://localhost:5173/recommend?category=villa"}>
                   <h1 className="text-white text-2xl p-5">{t("villa")}</h1>
@@ -69,7 +69,7 @@ const CollectionTypes = () => {
             </div>
           </div>
           <div>
-            <div className="bg-[url(..\src\assets\ghyjyj.png)] bg-cover w-[20rem] h-[20rem] rounded-lg">
+            <div className="bg-[url(@/assets/ghyjyj.png)] bg-cover w-[20rem] h-[20rem] rounded-lg">
               <div className="bg-black bg-opacity-30 hover:bg-opacity-0 w-[20rem] h-[20rem] rounded-lg">
                 <div className='cursor-pointer' onClick={() => window.location.href = "http://localhost:5173/recommend?category=townhouse"}>
                   <h1 className="text-white text-2xl p-5">{t("townhouse")}</h1>
@@ -82,7 +82,7 @@ const CollectionTypes = () => {
             </div>
           </div>
           <div>
-            <div className="bg-[url(..\src\assets\rrrgrghjny.png)] bg-cover w-[20rem] h-[20rem] rounded-lg">
+            <div className="bg-[url(@/assets/rrrgrghjny.png)] bg-cover w-[20rem] h-[20rem] rounded-lg">
               <div className="bg-black bg-opacity-30 hover:bg-opacity-0 w-[20rem] h-[20rem] rounded-lg">
                 <div className='cursor-pointer' onClick={() => window.location.href = "http://localhost:5173/recommend?category=commercial-building"}>
                   <h1 className="text-white text-2xl p-5">{t("commercialbuilding")}</h1>
@@ -95,7 +95,7 @@ const CollectionTypes = () => {
             </div>
           </div>
           <div>
-            <div className="bg-[url(..\src\assets\ghnghtrhththh.png)] bg-cover w-[20rem] h-[20rem] rounded-lg">
+            <div className="bg-[url(@/assets/ghnghtrhththh.png)] bg-cover w-[20rem] h-[20rem] rounded-lg">
               <div className="bg-black bg-opacity-30 hover:bg-opacity-0 w-[20rem] h-[20rem] rounded-lg">
                 <div className='cursor-pointer' onClick={() => window.location.href = "http://localhost:5173/recommend?category=land"}>
                   <h1 className="text-white text-2xl p-5">{t("land")}</h1>
