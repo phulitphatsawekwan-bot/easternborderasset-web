@@ -32,7 +32,7 @@ const CollectionTypes = () => {
           <div>
             <div className="bg-[url(@/assets/tghfthchh.png)] bg-cover w-[20rem] h-[20rem] rounded-lg">
               <div className="bg-black bg-opacity-30 hover:bg-opacity-0 w-[20rem] h-[20rem] rounded-lg">
-                <div className='cursor-pointer' onClick={() => window.location.href = "http://localhost:5173/recommend?category=house"}>
+                <div className='cursor-pointer' onClick={() => window.location.href = "https://easternborderasset-web.vercel.app/recommend?category=house"}>
                   <h1 className="text-white text-2xl p-5">{t("house")}</h1>
                   <div className='flex justify-between'>
                     <p className="relative text-white mt-[11rem] p-5">{t("clickfordetails")}</p>
@@ -45,7 +45,7 @@ const CollectionTypes = () => {
           <div>
             <div className="bg-[url(@/assets/hjhjkytgjyt.png)] bg-cover w-[20rem] h-[20rem] rounded-lg">
               <div className="bg-black bg-opacity-30 hover:bg-opacity-0 w-[20rem] h-[20rem] rounded-lg">
-                <div className='cursor-pointer' onClick={() => window.location.href = "http://localhost:5173/recommend?category=condo"}>
+                <div className='cursor-pointer' onClick={() => window.location.href = "https://easternborderasset-web.vercel.app/recommend?category=condo"}>
                   <h1 className="text-white text-2xl p-5">{t("condo")}</h1>
                   <div className='flex justify-between'>
                     <p className="relative text-white mt-[11rem] p-5">{t("clickfordetails")}</p>
@@ -58,7 +58,7 @@ const CollectionTypes = () => {
           <div>
             <div className="bg-[url(@/assets/fghbngjnjy.png)] bg-cover w-[20rem] h-[20rem] rounded-lg">
               <div className="bg-black bg-opacity-30 hover:bg-opacity-0 w-[20rem] h-[20rem] rounded-lg">
-                <div className='cursor-pointer' onClick={() => window.location.href = "http://localhost:5173/recommend?category=villa"}>
+                <div className='cursor-pointer' onClick={() => window.location.href = "https://easternborderasset-web.vercel.app/recommend?category=villa"}>
                   <h1 className="text-white text-2xl p-5">{t("villa")}</h1>
                   <div className='flex justify-between'>
                     <p className="relative text-white mt-[11rem] p-5">{t("clickfordetails")}</p>
@@ -71,7 +71,7 @@ const CollectionTypes = () => {
           <div>
             <div className="bg-[url(@/assets/ghyjyj.png)] bg-cover w-[20rem] h-[20rem] rounded-lg">
               <div className="bg-black bg-opacity-30 hover:bg-opacity-0 w-[20rem] h-[20rem] rounded-lg">
-                <div className='cursor-pointer' onClick={() => window.location.href = "http://localhost:5173/recommend?category=townhouse"}>
+                <div className='cursor-pointer' onClick={() => window.location.href = "https://easternborderasset-web.vercel.app/recommend?category=townhouse"}>
                   <h1 className="text-white text-2xl p-5">{t("townhouse")}</h1>
                   <div className='flex justify-between'>
                     <p className="relative text-white mt-[11rem] p-5">{t("clickfordetails")}</p>
@@ -84,7 +84,7 @@ const CollectionTypes = () => {
           <div>
             <div className="bg-[url(@/assets/rrrgrghjny.png)] bg-cover w-[20rem] h-[20rem] rounded-lg">
               <div className="bg-black bg-opacity-30 hover:bg-opacity-0 w-[20rem] h-[20rem] rounded-lg">
-                <div className='cursor-pointer' onClick={() => window.location.href = "http://localhost:5173/recommend?category=commercial-building"}>
+                <div className='cursor-pointer' onClick={() => window.location.href = "https://easternborderasset-web.vercel.app/recommend?category=commercial-building"}>
                   <h1 className="text-white text-2xl p-5">{t("commercialbuilding")}</h1>
                   <div className='flex justify-between'>
                     <p className="relative text-white mt-[11rem] p-5">{t("clickfordetails")}</p>
@@ -97,7 +97,7 @@ const CollectionTypes = () => {
           <div>
             <div className="bg-[url(@/assets/ghnghtrhththh.png)] bg-cover w-[20rem] h-[20rem] rounded-lg">
               <div className="bg-black bg-opacity-30 hover:bg-opacity-0 w-[20rem] h-[20rem] rounded-lg">
-                <div className='cursor-pointer' onClick={() => window.location.href = "http://localhost:5173/recommend?category=land"}>
+                <div className='cursor-pointer' onClick={() => window.location.href = "https://easternborderasset-web.vercel.app/recommend?category=land"}>
                   <h1 className="text-white text-2xl p-5">{t("land")}</h1>
                   <div className='flex justify-between'>
                     <p className="relative text-white mt-[11rem] p-5">{t("clickfordetails")}</p>
