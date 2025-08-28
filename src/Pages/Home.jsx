@@ -13,7 +13,7 @@ import { useTranslation } from "react-i18next";
 const Home = () => {
   const { t } = useTranslation();
   return (
-    <div>
+    <div className="overflow-hidden">
       <div className="overflow-hidden flex items-center justify-center bg-black h-[300px] md:h-100">
         <PreviewVideo />
         <div className="absolute z-10 items-center justify-center">
