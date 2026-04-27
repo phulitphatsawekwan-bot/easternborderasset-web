@@ -219,7 +219,7 @@ const resources = {
       nofavorite: "ไม่มีรายการโปรด",
       "Profile": "โปรไฟล์",
       "Real Estate": "สร้างประกาศ",
-      "My Favorites": "รายกายโปรด",
+      "My Favorites": "รายการโปรด",
       createprofile: "สร้างโปรไฟล์",
       aboutus: "เกี่ยวกับเรา",
       "What is Eastern Border Asset?": "Eastern Border Asset คืออะไร?",
