@@ -33,7 +33,7 @@ const Profile = () => {
       createAlert("error", err.message);
     })
   };
-  return <section className="container px-14 m-5">
+  return <section className="container px-14 mb-5">
     <h1 className="capitalize text-2xl font-semibold mb-4 mt-4">
       {t("createprofile")}
     </h1>
