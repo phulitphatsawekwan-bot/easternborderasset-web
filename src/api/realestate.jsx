@@ -1,7 +1,9 @@
 import axios from "axios";
 
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
+
 export const createRealestate = async (token, data) => {
-    return await axios.post('https://easternborderasset-api.vercel.app/api/realestate', data
+    return await axios.post(`${API_BASE_URL}/api/realestate`, data
         , {
             headers: {
                 Authorization: `Bearer ${token}`,
@@ -11,18 +13,18 @@ export const createRealestate = async (token, data) => {
 };
 
 export const listRealestate = async (id) =>
-    await axios.get(`https://easternborderasset-api.vercel.app/api/realestates/${id}`);
+    await axios.get(`${API_BASE_URL}/api/realestates/${id}`);
 
 
 export const ReadRealestate = async (id) =>
-    await axios.get(`https://easternborderasset-api.vercel.app/api/realestate/${id}`);
+    await axios.get(`${API_BASE_URL}/api/realestate/${id}`);
 
 
 
 
 
 export const addOrRemoveFavorite = async (token, data) => {
-    return await axios.post('https://easternborderasset-api.vercel.app/api/favorite', data
+    return await axios.post(`${API_BASE_URL}/api/favorite`, data
         , {
             headers: {
                 Authorization: `Bearer ${token}`,
@@ -32,7 +34,7 @@ export const addOrRemoveFavorite = async (token, data) => {
 };
 
 export const listFavorites = async (token) => {
-    return await axios.get('https://easternborderasset-api.vercel.app/api/favorites',
+    return await axios.get(`${API_BASE_URL}/api/favorites`,
         {
             headers: {
                 Authorization: `Bearer ${token}`,
@@ -44,6 +46,6 @@ export const listFavorites = async (token) => {
 // Filter
 export const filterRealestate = (category, search, type, price) => {
     return axios.get(
-        `https://easternborderasset-api.vercel.app/api/recommend/filter-realestate?category=${category}&search=${search}&type=${type}&price=${price}`
+        `${API_BASE_URL}/api/recommend/filter-realestate?category=${category}&search=${search}&type=${type}&price=${price}`
     )
 };
