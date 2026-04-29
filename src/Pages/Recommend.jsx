@@ -4,6 +4,8 @@ import Searchbar from "@/components/search/Searchbar";
 import CategoryList from "@/components/search/CategoryList";
 import RecommendListsContainer from "@/components/reccommend/RecommendListsContainer";
 
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
+
 const Recommend = () => {
   const [searchParams] = useSearchParams();
   const [realestates, setRealestates] = useState([]);
@@ -27,8 +29,8 @@ const Recommend = () => {
         if (price) query.set("price", price);
 
         const url = query.toString()
-          ? `https://easternborderasset-api.vercel.app/api/filter-realestate?${query.toString()}`
-          : `https://easternborderasset-api.vercel.app/api/filter-realestate`;
+          ? `${API_BASE_URL}/api/filter-realestate?${query.toString()}`
+          : `${API_BASE_URL}/api/filter-realestate`;
 
         const res = await fetch(url);
         const data = await res.json();
