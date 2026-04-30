@@ -12,3 +12,11 @@ export const createProfile = async(token, data) => {
         }
     )
 };
+
+export const getProfile = async (token) => {
+    return await axios.get(`${API_BASE_URL}/api/profile`, {
+        headers: {
+            Authorization: `Bearer ${token}`,
+        },
+    });
+};
